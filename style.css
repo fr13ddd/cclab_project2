@@ -1,0 +1,38 @@
+p {
+    text-align: center;
+    font-family: "Inconsolata", monospace;
+    font-size: 100%;
+  }
+
+
+.img-container {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    max-width: 100%; /* 图片最大宽度为父容器的100% */
+    max-height: 100%; /* 图片最大高度为父容器的100% */
+}
+
+.img-container img {
+    max-width: 100%; /* 图片最大宽度为父容器的100% */
+    max-height: 100%; /* 图片最大高度为父容器的100% */
+    height: auto; /* 让图片高度自适应宽度的比例 */
+    width: auto; /* 让图片宽度自适应高度的比例 */
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: rgb(98, 113, 97);
+}
+
+a:hover {
+    color: rgb(127, 83, 83);
+}
+
+a:active {
+    color: rgb(189, 27, 27);
+}
+  
