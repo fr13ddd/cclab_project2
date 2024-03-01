@@ -1,0 +1,6 @@
+.background {
+    background-image: url('pictures/front.jpg'); 
+    background-size: 100%;
+    filter: blur(5px);
+
+}
